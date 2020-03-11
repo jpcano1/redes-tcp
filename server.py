@@ -3,11 +3,12 @@ import socket
 import sys
 from threading import Thread
 import threading
+import logging 
 # Creates a socket
 
 NUMBER_OF_THREADS = 2
 JOB_NUMBER = [1, 2]
-queue = Queue()
+
 all_connections = []
 all_address = []
 SIZE = 1024
@@ -17,14 +18,17 @@ LISTO = "LISTO"
 clientes_listos = 0
 lk = threading.Lock()
 lk2 = threading.Lock()
-n_clientes = int(input("Ingrese el numero de clientes a esprear para mandar el archivo"))
+clientesThreads=[]
+n_clientes = int(input("Ingrese el numero de clientes a esprear para mandar el archivo:  "))
 clientes_enviados = 0
 class ClienteThread(Thread):
-    def __init__(self, ip, port, sock, cl):
+    def __init__(self, ip, port, sock, cl,filename,logger):
         Thread.__init__(self)
         self.ip = ip
         self.port = port
         self.sock = sock
+        self.filename=filename
+        self.logger = logger
         print ("New thread started for "+ip+":"+str(port))
 
     def run(self):
@@ -48,11 +52,9 @@ class ClienteThread(Thread):
                 lk2.acquire()
                 clientes_enviados += 1
                 lk2.release()
+                
 
-            
-
-                filename = 'mytext.txt'
-                f = open(filename,'rb')
+                f = open(self.filename,'rb')
                 while True:
                     l = f.read(SIZE)
                     while l:
@@ -68,7 +70,7 @@ class ClienteThread(Thread):
         except:
           print("Error")
 
-def create_socket():
+def create_socket(logger):
     try: 
         global host
         global port
@@ -77,11 +79,12 @@ def create_socket():
         host = "localhost"
         port = 9090
         s = socket.socket()
+        logger.info('Creando Socket')
     except socket.error as msg:
         print("Socket creation error:  " + str(msg))
 
 # binding socket listening for connections
-def binding_socket():
+def binding_socket(logger):
     try: 
         global host
         global port
@@ -98,12 +101,12 @@ def binding_socket():
         binding_socket()
 
 # acepta conexiones que esten en el puerto esperando
-def accept_connections():
+def accept_connections(logger):
     for c in all_connections:
         c.close()
     del all_connections[:]
     del all_address[:]
-
+    filename = input("ingrese el nombre del archivo a enviar")
     while True:
         try:
             conn, address = s.accept()
@@ -111,9 +114,41 @@ def accept_connections():
             s.setblocking(1)  
             all_connections.append(conn)
             all_address.append(address)
-            tcliente= ClienteThread(address, port, conn)
-            t.start()
-            
-        except Exception as e:
-            pass
+            tcliente= ClienteThread(address, port, conn,filename,logger)
+            tcliente.start()
+            clientesThreads.append(tcliente)
+        except:
+            logger.error("time out")
+    for t in clientesThreads:
+        t.join()
+    
     # funcion
+
+def create_server_log():
+    fid= "log_server.txt"
+    
+    logging.basicConfig(filename=fid,level=logging.DEBUG)
+    # create logger
+    logger = logging.getLogger("server_logger")
+    logger.setLevel(logging.DEBUG)
+    # create console handler and set level to debug
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.DEBUG)
+    # create formatter
+    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    # add formatter to ch
+    ch.setFormatter(formatter)
+    # add ch to logger
+    logger.addHandler(ch)
+    
+
+    return logger
+
+
+def main():
+    logger = create_server_log()
+    create_socket(logger)
+    binding_socket(logger)
+    accept_connections(logger)
+
+main()
