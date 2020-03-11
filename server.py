@@ -4,6 +4,7 @@ import sys
 from threading import Thread
 import threading
 import logging 
+import time
 # Creates a socket
 
 NUMBER_OF_THREADS = 2
@@ -18,8 +19,9 @@ LISTO = "LISTO"
 clientes_listos = 0
 lk = threading.Lock()
 lk2 = threading.Lock()
+lk3=threading.Lock()
 clientesThreads=[]
-n_clientes = int(input("Ingrese el numero de clientes a esprear para mandar el archivo:  "))
+n_clientes = 0
 clientes_enviados = 0
 class ClienteThread(Thread):
     def __init__(self, ip, port, sock, cl,filename,logger):
@@ -34,41 +36,62 @@ class ClienteThread(Thread):
     def run(self):
         try:
             data = self.sock.recv(SIZE).decode()
+            self.logger.info("Recibiendo Saludo Cliente")
             if data == HOLA:
                 self.sock.send(CONECTADO.encode())
+                self.logger.info("Enviando Confirmacion conexion")
             data = self.sock.recv(SIZE).decode()
             if data == LISTO:
                 lk.acquire()
                 clientes_listos += 1
                 lk.release()
+                self.logger.info("Cliente Listo para recibir archivos")
             else: 
                 self.sock.close()
+                self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
+                self.logger.info("Respuesta no esperada")
                
             while clientes_listos < n_clientes:
+                self.logger.info("No se ha completado el numero de clientes")
                 continue
             
             # enviar archivo
             if clientes_enviados < n_clientes:
+                self.logger.info("Enviando archivo")
                 lk2.acquire()
                 clientes_enviados += 1
                 lk2.release()
-                
 
                 f = open(self.filename,'rb')
+                start_time = time.time()
+                start_clock = time.clock()
                 while True:
                     l = f.read(SIZE)
                     while l:
                         self.sock.send(l)
                         # print('Sent ',repr(l))
+
                         l = f.read(SIZE)
                     if not l:
                         f.close()
+                        end_time = time.time()
+                        end_clock = time.clock()
+                        time_time = end_time-start_time
+                        clock_time = end_clock-start_clock
                         self.sock.close()
+                        self.logger.info("Envio Terminado")
+                        self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
+                        self.logger.info("Clock duration "+ str(clock_time)  +" seconds process time")
+                        self.logger.info("Time durattion "+ str(time_time) + " seconds wall time")
                         break
+                    
+
             else:
+                self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
                 self.sock.close()
+                
         except:
-          print("Error")
+            self.logger.error("Error")
 
 def create_socket(logger):
     try: 
@@ -81,7 +104,7 @@ def create_socket(logger):
         s = socket.socket()
         logger.info('Creando Socket')
     except socket.error as msg:
-        print("Socket creation error:  " + str(msg))
+        logger.error("Socket creation error:  " + str(msg))
 
 # binding socket listening for connections
 def binding_socket(logger):
@@ -90,15 +113,15 @@ def binding_socket(logger):
         global port
         global s
 
-        print("Binding port"+str(port))
+        logger.info("Binding port: "+str(port))
         # se une el puerto con el host
         s.bind((host,port))
         # se escucha para encontrar conexiones
         s.listen(25)
     except socket.error as msg:
-        print("Socket binding error:  " + str(msg)+"Retrying")
+        logger.error(("Socket binding error:  " + str(msg)+"Retrying"))
 
-        binding_socket()
+        binding_socket(logger)
 
 # acepta conexiones que esten en el puerto esperando
 def accept_connections(logger):
@@ -106,21 +129,38 @@ def accept_connections(logger):
         c.close()
     del all_connections[:]
     del all_address[:]
-    filename = input("ingrese el nombre del archivo a enviar")
+    filename = input("ingrese el nombre del archivo a enviar: ")
     while True:
         try:
             conn, address = s.accept()
-            print("La conexion se ha establecido: IP:"+address[0] + "en el puerto" + str(address[1]))
+            logger.info("La conexion se ha establecido: IP:"+address[0] + "en el puerto" + str(address[1]))
             s.setblocking(1)  
             all_connections.append(conn)
             all_address.append(address)
             tcliente= ClienteThread(address, port, conn,filename,logger)
             tcliente.start()
             clientesThreads.append(tcliente)
+            lk2.acquire()
+            if(clientes_enviados==n_clientes):
+                lk2.release()
+                lk3.acquire()
+                n_clientes=int(input("Ingrese el numero de clientes a esprear para mandar el archivo:  "))
+                lk3.release()
+                for t in clientesThreads:
+                    t.join()
+                logger.info("Cerrando conexiones de clientes ")
+                for c in all_connections:
+                    
+                    c.close()
+
+                
+            else:
+                lk2.release()
+
         except:
             logger.error("time out")
-    for t in clientesThreads:
-        t.join()
+
+    
     
     # funcion
 
@@ -146,6 +186,7 @@ def create_server_log():
 
 
 def main():
+    n_clientes = int(input("Ingrese el numero de clientes a esprear para mandar el archivo:  "))
     logger = create_server_log()
     create_socket(logger)
     binding_socket(logger)

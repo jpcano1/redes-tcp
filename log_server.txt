@@ -1,0 +1,3 @@
+INFO:server_logger:Creando Socket
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
