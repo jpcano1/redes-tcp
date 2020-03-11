@@ -23,6 +23,7 @@ lk3=threading.Lock()
 clientesThreads=[]
 n_clientes = 0
 clientes_enviados = 0
+
 class ClienteThread(Thread):
     def __init__(self, ip, port, sock, cl,filename,logger):
         Thread.__init__(self)
