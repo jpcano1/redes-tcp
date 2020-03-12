@@ -1,5 +1,4 @@
 import socket
-from threading import Thread
 
 HOLA = "HOLA"
 SIZE = 1024
