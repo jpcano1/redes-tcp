@@ -21,7 +21,6 @@ class ClienteThread(Thread):
     def run(self):
         try:
             data = self.sock.recv(SIZE).decode()
-            print(data)
             self.logger.info("Recibiendo Saludo Cliente")
             if data == HOLA:
                 self.sock.send(CONECTADO.encode())
@@ -73,8 +72,9 @@ class ClienteThread(Thread):
             else:
                 self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
                 self.sock.close()
-        except:
-            self.logger.error("Error")
+        except Exception as e:
+            self.logger.error("Error: " + str(e))
+            self.sock.close()
 
 def create_socket(logger):
     try: 
@@ -118,15 +118,9 @@ def accept_connections(logger):
         try:
             conn, address = s.accept()
             logger.info("La conexion se ha establecido: IP: "+address[0] + "en el puerto: " + str(address[1]))
-            '''
-            No se que sea esto, pero manda un Warning
-            '''
             s.setblocking(1)
             all_connections.append(conn)
             all_address.append(address)
-            '''
-            Aqui esta el error, al parecer es algo del constructor
-            '''
             tcliente= ClienteThread(address[0], port, conn,filename,logger)
             tcliente.start()
             clientesThreads.append(tcliente)
