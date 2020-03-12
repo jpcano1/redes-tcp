@@ -117,7 +117,7 @@ def binding_socket(logger):
         # se escucha para encontrar conexiones
         s.listen(25)
     except socket.error as msg:
-        logger.error(("Socket binding error:  " + str(msg)+"Retrying"))
+        logger.error(("Socket binding error: " + str(msg)+"Retrying"))
 
         binding_socket(logger)
 
@@ -132,18 +132,23 @@ def accept_connections(logger):
         try:
             conn, address = s.accept()
             logger.info("La conexion se ha establecido: IP: "+address[0] + "en el puerto: " + str(address[1]))
+            '''
+            No se que sea esto, pero manda un Warning
+            '''
             s.setblocking(1)
             all_connections.append(conn)
             all_address.append(address)
+            '''
+            Aqui esta el error, al parecer es algo del constructor
+            '''
             tcliente= ClienteThread(address, port, conn,filename,logger)
             tcliente.start()
-            print("Se inicio el proceso")
             clientesThreads.append(tcliente)
             lk2.acquire()
-            if(clientes_enviados==n_clientes):
+            if clientes_enviados == n_clientes:
                 lk2.release()
                 lk3.acquire()
-                n_clientes=int(input("Ingrese el numero de clientes a esperar para mandar el archivo:  "))
+                n_clientes = int(input("Ingrese el numero de clientes a esperar para mandar el archivo:  "))
                 lk3.release()
                 for t in clientesThreads:
                     t.join()
