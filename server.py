@@ -6,32 +6,17 @@ import logging
 import time
 # Creates a socket
 
-NUMBER_OF_THREADS = 2
-JOB_NUMBER = [1, 2]
 
-all_connections = []
-all_address = []
-SIZE = 1024
-HOLA = "HOLA"
-CONECTADO = "CONECTADO"
-LISTO = "LISTO"
-clientes_listos = 0
-lk = threading.Lock()
-lk2 = threading.Lock()
-lk3=threading.Lock()
-clientesThreads=[]
-n_clientes = 0
-clientes_enviados = 0
 
 class ClienteThread(Thread):
-    def __init__(self, ip, port, sock, cl, filename, logger):
+    def __init__(self, ip, port, sock, filename, logger):
         Thread.__init__(self)
         self.ip = ip
         self.port = port
         self.sock = sock
         self.filename=filename
         self.logger = logger
-        print ("New thread started for "+ip+":"+str(port))
+        self.logger.info("New thread started for "+ip+":"+str(port))
 
     def run(self):
         try:
@@ -46,7 +31,7 @@ class ClienteThread(Thread):
                 lk.acquire()
                 clientes_listos += 1
                 lk.release()
-                self.logger.info("Cliente Listo para recibir archivos")
+                self.logger.info("Cliente"+self.ip +" Listo para recibir archivos")
             else: 
                 self.sock.close()
                 self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
@@ -80,7 +65,7 @@ class ClienteThread(Thread):
                         time_time = end_time-start_time
                         clock_time = end_clock-start_clock
                         self.sock.close()
-                        self.logger.info("Envio Terminado")
+                        self.logger.info("Envio Terminado con " + self.ip + "en el puerto "+ self.port)
                         self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
                         self.logger.info("Clock duration "+ str(clock_time)  +" seconds process time")
                         self.logger.info("Time durattion "+ str(time_time) + " seconds wall time")
@@ -123,6 +108,7 @@ def binding_socket(logger):
 
 # acepta conexiones que esten en el puerto esperando
 def accept_connections(logger):
+    global n_clientes
     for c in all_connections:
         c.close()
     del all_connections[:]
@@ -141,10 +127,11 @@ def accept_connections(logger):
             '''
             Aqui esta el error, al parecer es algo del constructor
             '''
-            tcliente= ClienteThread(address, port, conn,filename,logger)
+            tcliente= ClienteThread(address[0], port, conn,filename,logger)
             tcliente.start()
             clientesThreads.append(tcliente)
-            lk2.acquire()
+            lk2.acquire() 
+            
             if clientes_enviados == n_clientes:
                 lk2.release()
                 lk3.acquire()
@@ -159,6 +146,8 @@ def accept_connections(logger):
                 lk2.release()
         except Exception as e:
             logger.error(str(e))
+            for c in all_connections:
+                c.close()
 
     # funcion
 
@@ -182,7 +171,26 @@ def create_server_log():
     return logger
 
 if __name__ == '__main__':
+    global n_clientes
+    global all_connections
+    global all_address
+    global SIZE
     n_clientes = int(input("Ingrese el numero de clientes a esperar para mandar el archivo:  "))
+
+
+    all_connections = []
+    all_address = []
+    SIZE = 1024
+    HOLA = "HOLA"
+    CONECTADO = "CONECTADO"
+    LISTO = "LISTO"
+    clientes_listos = 0
+    lk = threading.Lock()
+    lk2 = threading.Lock()
+    lk3=threading.Lock()
+    clientesThreads=[]
+    
+    clientes_enviados = 0
     logger = create_server_log()
     create_socket(logger)
     binding_socket(logger)
