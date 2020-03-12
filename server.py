@@ -1,6 +1,5 @@
 
 import socket
-import sys
 from threading import Thread
 import threading
 import logging 
@@ -25,7 +24,7 @@ n_clientes = 0
 clientes_enviados = 0
 
 class ClienteThread(Thread):
-    def __init__(self, ip, port, sock, cl,filename,logger):
+    def __init__(self, ip, port, sock, cl, filename, logger):
         Thread.__init__(self)
         self.ip = ip
         self.port = port
@@ -37,6 +36,7 @@ class ClienteThread(Thread):
     def run(self):
         try:
             data = self.sock.recv(SIZE).decode()
+            print(data)
             self.logger.info("Recibiendo Saludo Cliente")
             if data == HOLA:
                 self.sock.send(CONECTADO.encode())
@@ -85,12 +85,9 @@ class ClienteThread(Thread):
                         self.logger.info("Clock duration "+ str(clock_time)  +" seconds process time")
                         self.logger.info("Time durattion "+ str(time_time) + " seconds wall time")
                         break
-                    
-
             else:
                 self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
                 self.sock.close()
-                
         except:
             self.logger.error("Error")
 
@@ -134,35 +131,30 @@ def accept_connections(logger):
     while True:
         try:
             conn, address = s.accept()
-            logger.info("La conexion se ha establecido: IP:"+address[0] + "en el puerto" + str(address[1]))
-            s.setblocking(1)  
+            logger.info("La conexion se ha establecido: IP: "+address[0] + "en el puerto: " + str(address[1]))
+            s.setblocking(1)
             all_connections.append(conn)
             all_address.append(address)
             tcliente= ClienteThread(address, port, conn,filename,logger)
             tcliente.start()
+            print("Se inicio el proceso")
             clientesThreads.append(tcliente)
             lk2.acquire()
             if(clientes_enviados==n_clientes):
                 lk2.release()
                 lk3.acquire()
-                n_clientes=int(input("Ingrese el numero de clientes a esprear para mandar el archivo:  "))
+                n_clientes=int(input("Ingrese el numero de clientes a esperar para mandar el archivo:  "))
                 lk3.release()
                 for t in clientesThreads:
                     t.join()
                 logger.info("Cerrando conexiones de clientes ")
                 for c in all_connections:
-                    
                     c.close()
-
-                
             else:
                 lk2.release()
+        except Exception as e:
+            logger.error(str(e))
 
-        except:
-            logger.error("time out")
-
-    
-    
     # funcion
 
 def create_server_log():
@@ -181,16 +173,12 @@ def create_server_log():
     ch.setFormatter(formatter)
     # add ch to logger
     logger.addHandler(ch)
-    
 
     return logger
 
-
-def main():
-    n_clientes = int(input("Ingrese el numero de clientes a esprear para mandar el archivo:  "))
+if __name__ == '__main__':
+    n_clientes = int(input("Ingrese el numero de clientes a esperar para mandar el archivo:  "))
     logger = create_server_log()
     create_socket(logger)
     binding_socket(logger)
     accept_connections(logger)
-
-main()

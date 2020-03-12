@@ -1,3 +1,2018 @@
 INFO:server_logger:Creando Socket
 INFO:server_logger:Creando Socket
 INFO:server_logger:Binding port: 9090
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexion se ha establecido: IP:127.0.0.1en el puerto34010
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+ERROR:server_logger:time out
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Binding port: 9090
+ERROR:server_logger:Socket binding error:  [Errno 98] Address already in useRetrying
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexion se ha establecido: IP:127.0.0.1en el puerto34044
+ERROR:server_logger:time out
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexion se ha establecido: IP: 127.0.0.1en el puerto: 34056
+ERROR:server_logger:time out
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexion se ha establecido: IP: 127.0.0.1en el puerto: 34140
+ERROR:server_logger:time out
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexion se ha establecido: IP: 127.0.0.1en el puerto: 34156
+ERROR:server_logger:__init__() missing 1 required positional argument: 'logger'
