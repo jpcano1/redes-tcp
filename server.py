@@ -169,6 +169,8 @@ if __name__ == '__main__':
     global all_connections
     global all_address
     global SIZE
+    global clientes_listos
+    global clientes_enviados
     n_clientes = int(input("Ingrese el numero de clientes a esperar para mandar el archivo:  "))
 
 

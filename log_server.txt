@@ -11864,3 +11864,17 @@ INFO:server_logger:New thread started for 127.0.0.1:9090
 INFO:server_logger:Recibiendo Saludo Cliente
 INFO:server_logger:Enviando Confirmacion conexion
 ERROR:server_logger:Error: local variable 'clientes_listos' referenced before assignment
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexion se ha establecido: IP: 127.0.0.1en el puerto: 36092
+INFO:server_logger:New thread started for 127.0.0.1:9090
+INFO:server_logger:Recibiendo Saludo Cliente
+ERROR:server_logger:Error: name 'HOLA' is not defined
+ERROR:server_logger:name 'clientesThreads' is not defined
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexion se ha establecido: IP: 127.0.0.1en el puerto: 36110
+INFO:server_logger:New thread started for 127.0.0.1:9090
+INFO:server_logger:Recibiendo Saludo Cliente
+INFO:server_logger:Enviando Confirmacion conexion
+ERROR:server_logger:Error: local variable 'clientes_listos' referenced before assignment
