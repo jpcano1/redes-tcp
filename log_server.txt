@@ -1,0 +1,13 @@
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexion se ha establecido: IP: 127.0.0.1 en el puerto: 53698
+INFO:server_logger:New thread started for 127.0.0.1:9090
+INFO:server_logger:Recibiendo Saludo de cliente: 127.0.0.1
+INFO:server_logger:Enviando Confirmacion conexion a cliente: 127.0.0.1
+INFO:server_logger:Cliente: 127.0.0.1 Listo para recibir archivos
+INFO:server_logger:Enviando archivo a cliente 127.0.0.1
+INFO:server_logger:Envio Terminado con cliente: 127.0.0.1en el puerto 9090
+INFO:server_logger:Se termino la conexión con cliente: 127.0.0.1en el puerto 9090
+INFO:server_logger:Duracion: 0.002641916275024414 seconds wall time
+INFO:server_logger:La conexion se ha establecido: IP: 127.0.0.1 en el puerto: 53700
+INFO:server_logger:New thread started for 127.0.0.1:9090

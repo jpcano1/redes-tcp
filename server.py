@@ -68,7 +68,7 @@ class ClienteThread(Thread):
                 lk4.acquire()
                 self.logger.info("Enviando archivo a cliente " + self.ip )
                 lk4.release()
-                clientes_listos-=1
+                clientes_listos -=1
                 clientes_enviados += 1
                 lk3.release()
                 lk2.release()
