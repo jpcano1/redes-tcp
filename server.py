@@ -193,6 +193,7 @@ def accept_connections(logger):
                 clientes_enviados=0
 
                 clientes_listos=0
+                
                 while n_clientes==0:
                     n_clientes = input("Ingrese el numero de clientes a esperar para mandar el archivo:  ")
                     n_clientes=int(n_clientes)
