@@ -4,7 +4,10 @@ from threading import Thread
 import threading
 import logging 
 import time
+import hashlib
 # Creates a socket
+
+
 
 
 
@@ -16,40 +19,64 @@ class ClienteThread(Thread):
         self.sock = sock
         self.filename=filename
         self.logger = logger
+        lk4.acquire()
         self.logger.info("New thread started for "+ip+":"+str(port))
+        lk4.release()
 
     def run(self):
+        global n_clientes
+       
+        global SIZE
+        global clientes_listos
+        global clientes_enviados
         try:
             data = self.sock.recv(SIZE).decode()
-            self.logger.info("Recibiendo Saludo Cliente")
+            lk4.acquire()
+            self.logger.info("Recibiendo Saludo de cliente: " + self.ip)
+            lk4.release()
             if data == HOLA:
                 self.sock.send(CONECTADO.encode())
-                self.logger.info("Enviando Confirmacion conexion")
+                lk4.acquire()
+                self.logger.info("Enviando Confirmacion conexion a cliente: " + self.ip)
+                lk4.release()
             data = self.sock.recv(SIZE).decode()
             if data == LISTO:
                 lk.acquire()
                 clientes_listos += 1
                 lk.release()
-                self.logger.info("Cliente"+self.ip +" Listo para recibir archivos")
+                lk4.acquire()
+                self.logger.info("Cliente: "+self.ip +" Listo para recibir archivos")
+                lk4.release()
             else: 
                 self.sock.close()
-                self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
+                lk4.acquire()
+                self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ int(self.port ))
                 self.logger.info("Respuesta no esperada")
-               
+                lk4.release()
+        
             while clientes_listos < n_clientes:
+                lk4.acquire()
                 self.logger.info("No se ha completado el numero de clientes")
+                lk4.release()
                 continue
             
             # enviar archivo
+            lk3.acquire()
+            lk2.acquire()
+            lk.acquire()
             if clientes_enviados < n_clientes:
-                self.logger.info("Enviando archivo")
-                lk2.acquire()
+                lk4.acquire()
+                self.logger.info("Enviando archivo a cliente " + self.ip )
+                lk4.release()
+                clientes_listos-=1
                 clientes_enviados += 1
+                lk3.release()
                 lk2.release()
+                lk.release()
 
                 f = open(self.filename,'rb')
                 start_time = time.time()
-                start_clock = time.clock()
+                
                 while True:
                     l = f.read(SIZE)
                     while l:
@@ -59,22 +86,44 @@ class ClienteThread(Thread):
                         l = f.read(SIZE)
                     if not l:
                         f.close()
+
+
                         end_time = time.time()
-                        end_clock = time.clock()
+                       
                         time_time = end_time-start_time
-                        clock_time = end_clock-start_clock
+                        lk4.acquire()
+                        self.logger.info("Envio Terminado con cliente: " + self.ip + "en el puerto "+ str(self.port))
+                        h = hash_file(self.filename)
+                        self.logger.info("Se termino la conexión con cliente: "+ self.ip + "en el puerto "+ str(self.port ))
+                        
+                        self.logger.info("Duracion: "+ str(time_time) + " seconds wall time")
+                        lk4.release()
                         self.sock.close()
-                        self.logger.info("Envio Terminado con " + self.ip + "en el puerto "+ self.port)
-                        self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
-                        self.logger.info("Clock duration "+ str(clock_time)  +" seconds process time")
-                        self.logger.info("Time durattion "+ str(time_time) + " seconds wall time")
                         break
             else:
-                self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ self.port )
                 self.sock.close()
+                lk2.release()
+                lk3.release()
+                lk.release()
+                lk4.acquire()
+                self.logger.info("Se termino la conexión con "+ self.ip + "en el puerto "+ str(self.port) )
+                lk4.release()
+                
         except Exception as e:
+            print(e)
+            if not lk.acquire(False):
+                lk.release()
+            if not lk2.acquire(False):
+                lk2.release()
+            if not lk3.acquire(False):
+                lk3.release()
+            if not lk4.acquire(False):
+                lk4.release()
+            lk4.acquire()
             self.logger.error("Error: " + str(e))
+            lk4.release()
             self.sock.close()
+         
 
 def create_socket(logger):
     try: 
@@ -109,6 +158,11 @@ def binding_socket(logger):
 # acepta conexiones que esten en el puerto esperando
 def accept_connections(logger):
     global n_clientes
+    global all_connections
+    global all_address
+    global SIZE
+    global clientes_listos
+    global clientes_enviados
     for c in all_connections:
         c.close()
     del all_connections[:]
@@ -117,7 +171,7 @@ def accept_connections(logger):
     while True:
         try:
             conn, address = s.accept()
-            logger.info("La conexion se ha establecido: IP: "+address[0] + "en el puerto: " + str(address[1]))
+            logger.info("La conexion se ha establecido: IP: "+address[0] + " en el puerto: " + str(address[1]))
             s.setblocking(1)
             all_connections.append(conn)
             all_address.append(address)
@@ -125,21 +179,48 @@ def accept_connections(logger):
             tcliente.start()
             clientesThreads.append(tcliente)
             lk2.acquire() 
-            
-            if clientes_enviados == n_clientes:
-                lk2.release()
-                lk3.acquire()
-                n_clientes = int(input("Ingrese el numero de clientes a esperar para mandar el archivo:  "))
-                lk3.release()
+            lk3.acquire()
+            lk.acquire()    
+            lk4.acquire()
+            if clientes_enviados == n_clientes :
                 for t in clientesThreads:
                     t.join()
+              
                 logger.info("Cerrando conexiones de clientes ")
+              
                 for c in all_connections:
                     c.close()
+                clientes_enviados=0
+
+                clientes_listos=0
+                while n_clientes==0:
+                    n_clientes = input("Ingrese el numero de clientes a esperar para mandar el archivo:  ")
+                    n_clientes=int(n_clientes)
+                lk2.release()
+                lk.release()
+                lk4.release()
+                lk3.release()
+                
             else:
                 lk2.release()
+                lk.release()
+                lk4.release()
+                lk3.release()
+
         except Exception as e:
+            lk4.acquire()
             logger.error(str(e))
+            lk4.release()
+            print(e)
+            if not lk.acquire(False):
+                lk.release()
+            if not lk2.acquire(False):
+                lk2.release()
+            if not lk3.acquire(False):
+                lk3.release()
+            if not lk4.acquire(False):
+                lk4.release()
+            
             for c in all_connections:
                 c.close()
 
@@ -164,6 +245,26 @@ def create_server_log():
 
     return logger
 
+def hash_file(filename):
+   """"This function returns the SHA-1 hash
+   of the file passed into it"""
+
+   # make a hash object
+   h = hashlib.sha1()
+
+   # open file for reading in binary mode
+   with open(filename,'rb') as file:
+
+       # loop till the end of the file
+       chunk = 0
+       while chunk != b'':
+           # read only 1024 bytes at a time
+           chunk = file.read(1024)
+           h.update(chunk)
+
+   # return the hex representation of digest
+   return h.hexdigest()
+
 if __name__ == '__main__':
     global n_clientes
     global all_connections
@@ -184,9 +285,11 @@ if __name__ == '__main__':
     lk = threading.Lock()
     lk2 = threading.Lock()
     lk3=threading.Lock()
+    lk4 = threading.Lock()
     clientesThreads=[]
     
     clientes_enviados = 0
+
     logger = create_server_log()
     create_socket(logger)
     binding_socket(logger)
