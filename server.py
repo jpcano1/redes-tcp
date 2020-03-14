@@ -5,7 +5,7 @@ import threading
 import logging
 import time
 import hashlib
-import datetime
+from datetime import datetime
 # Creates a socket
 
 
