@@ -135,7 +135,8 @@ def create_socket(logger):
         global port
         global s
         # ip fija del servidor
-        host = "10.0.0.4"
+        #host = "10.0.0.4"
+        host = "localhost"
         port = 9090
         s = socket.socket()
         logger.info('Creando Socket')
@@ -219,6 +220,8 @@ def accept_connections(logger):
                 lk3.release()
 
         except Exception as e:
+            print(e)
+            lk4.release()
             lk4.acquire()
             logger.error(str(e))
             lk4.release()
