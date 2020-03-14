@@ -124,7 +124,7 @@ class ClienteThread(Thread):
             if not lk4.acquire(False):
                 lk4.release()
             lk4.acquire()
-            self.self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Error: " + str(e))
+            self.logger.error("Error: " + str(e))
             lk4.release()
             self.sock.close()
 
@@ -140,7 +140,7 @@ def create_socket(logger):
         s = socket.socket()
         logger.info('Creando Socket')
     except socket.error as msg:
-        self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Socket creation error:  " + str(msg))
+        logger.error("Socket creation error:  " + str(msg))
 
 # binding socket listening for connections
 
@@ -157,7 +157,7 @@ def binding_socket(logger):
         # se escucha para encontrar conexiones
         s.listen(25)
     except socket.error as msg:
-        self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + ("Socket binding error: " + str(msg)+"Retrying"))
+        logger.error(("Socket binding error: " + str(msg)+"Retrying"))
 
         binding_socket(logger)
 
@@ -220,7 +220,7 @@ def accept_connections(logger):
 
         except Exception as e:
             lk4.acquire()
-            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + str(e))
+            logger.error(str(e))
             lk4.release()
             print(e)
             if not lk.acquire(False):
