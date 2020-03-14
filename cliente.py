@@ -1,5 +1,7 @@
 import socket
 import logging
+import time
+from datetime import datetime
 
 from threading import Thread
 HOLA = "HOLA"
@@ -18,9 +20,12 @@ class Cliente:
         data = self.sock.recv(SIZE).decode()
         if data == CONECTADO:
             self.sock.send(LISTO.encode())
+            self.logger.info("Conectado con el servidor")
         data = self.sock.recv(SIZE).decode()
+        start_time = time.time()
         with open('received_file.txt', 'wb') as f:
             print( 'file opened')
+            self.logger.info("Se empezó a recibir el archivo")
             while True:
                 #print('receiving data...')
                 data = s.recv(1024)
@@ -31,6 +36,10 @@ class Cliente:
                     break
                 # write data to a file
                 f.write(data)
+            end_time = time.time()
+            time_time = end_time - start_time
+            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
+                             "Duracion: " + str(time_time) + " seconds wall time")
 
 def create_client_log():
     fid = "log_client.txt"

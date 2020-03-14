@@ -22,3 +22,14 @@ INFO:server_logger:La conexión se ha establecido: IP: 127.0.0.1 en el puerto: 5
 INFO:server_logger:Creando Socket
 INFO:server_logger:Binding port: 9090
 INFO:server_logger:La conexión se ha establecido: IP: 127.0.0.1 en el puerto: 56569
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexión se ha establecido: IP: 127.0.0.1 en el puerto: 33704
+INFO:server_logger:2020-03-14-11:26:012020-03-14-11:26:01New thread started for 127.0.0.1:9090
+INFO:server_logger:2020-03-14-11:26:012020-03-14-11:26:01Recibiendo Saludo de cliente: 127.0.0.1
+INFO:server_logger:2020-03-14-11:26:01Enviando Confirmacion conexion a cliente: 127.0.0.1
+INFO:server_logger:2020-03-14-11:26:01Cliente: 127.0.0.1 Listo para recibir archivos
+INFO:server_logger:2020-03-14-11:26:01Enviando archivo a cliente 127.0.0.1
+INFO:server_logger:2020-03-14-11:26:01Envio Terminado con cliente: 127.0.0.1en el puerto 9090
+INFO:server_logger:2020-03-14-11:26:01Se termino la conexión con cliente: 127.0.0.1en el puerto 9090
+INFO:server_logger:2020-03-14-11:26:01Duracion: 0.004878997802734375 seconds wall time

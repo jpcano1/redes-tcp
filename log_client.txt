@@ -1,0 +1,4 @@
+INFO:client_logger:Cliente conectado
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:2020-03-14-11:26:01Duracion: 0.006062984466552734 seconds wall time
