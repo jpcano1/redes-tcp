@@ -101,10 +101,11 @@ class ClienteThread(Thread):
                         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                             "Duracion: " + str(time_time) + " seconds wall time")
                         lk4.release()
-                        self.sock.close()
+                     
 
                         break
                 h = hash_file(self.filename)
+                print(h)
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                             "Enviando Hash")
                 self.sock.send("HASH".encode())
@@ -118,7 +119,7 @@ class ClienteThread(Thread):
                     lk4.acquire()
                     self.logger.info("El usuario con ip: "+ self.ip + "recibio el archivo corrrecto")
                     lk4.release()
-                
+                self.sock.close()
             else:
                 self.sock.close()
                 lk2.release()
@@ -151,8 +152,8 @@ def create_socket(logger):
         global port
         global s
         # ip fija del servidor
-        host = "10.0.0.4"
-        # host = "localhost"
+        # host = "10.0.0.4"
+        host = "localhost"
         port = 9090
         s = socket.socket()
         logger.info('Creando Socket')

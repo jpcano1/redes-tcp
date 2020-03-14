@@ -2,6 +2,7 @@ import socket
 import logging
 import time
 from datetime import datetime
+import hashlib
 
 from threading import Thread
 HOLA = "HOLA"
@@ -32,23 +33,27 @@ class Cliente:
                 # print('data=%s'%(data))
                 if data.decode()=="HASH":
                     f.close()
+                    end_time = time.time()
+                    time_time = end_time - start_time
+                    self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
+                                    "Duracion: " + str(time_time) + " seconds wall time")
                     print ('file close()')
                     h=self.sock.recv(1024).decode()
+                    print(h)
                     h_received = hash_file('received_file.txt')
+                    print(h_received)
                     self.logger.info("Recibiendo hash del archivo y verificando")
                     mes = "ERROR"
 
                     if h == h_received:
                         self.logger.info("El archivo llego igual")
                         mes= "CORRECTO"
+                    else:
+                        self.logger.info("El archivo llego mal")
                     self.sock.send(mes.encode())
                     break
                 # write data to a file
                 f.write(data)
-            end_time = time.time()
-            time_time = end_time - start_time
-            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
-                             "Duracion: " + str(time_time) + " seconds wall time")
 
 def create_client_log():
     fid = "log_client.txt"
