@@ -1,5 +1,5 @@
 import socket
-import threading
+import logging
 
 from threading import Thread
 HOLA = "HOLA"
@@ -30,6 +30,10 @@ class Cliente:
                     break
                 # write data to a file
                 f.write(data)
+
+def create_client_log():
+    fid = "log_client.txt"
+    logging.basicConfig(filename=fid, )
 
 if __name__ == '__main__':
     s = socket.socket()
