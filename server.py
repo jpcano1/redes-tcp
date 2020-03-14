@@ -12,7 +12,7 @@ class ClienteThread(Thread):
     def __init__(self, ip, port, sock, filename, logger):
         Thread.__init__(self)
         self.ip = ip
-        9090 = port
+        # self.port = port
         self.sock = sock
         self.filename = filename
         self.logger = logger
