@@ -33,7 +33,7 @@ class Cliente:
 
 if __name__ == '__main__':
     s = socket.socket()
-    host = input("Ingrese el host de conexion ej: 'localhost': ")
+    host = input("Ingrese el host de conexión ej: 'localhost': ")
     # host = "localhost"
     port = 9090
     s.connect((host, port))
