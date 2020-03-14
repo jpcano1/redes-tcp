@@ -35,7 +35,7 @@ if __name__ == '__main__':
     s = socket.socket()
     host = input("Ingrese el host de conexion ej: 'localhost': ")
     # host = "localhost"
-    port = 9090
+    port = 80
     s.connect((host, port))
     print("Conectado")
     cliente = Cliente(s)
