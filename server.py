@@ -95,7 +95,6 @@ class ClienteThread(Thread):
                         lk4.acquire()
                         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                             "Envio Terminado con cliente: " + self.ip + "en el puerto " + str(self.port))
-                        h = hash_file(self.filename)
                         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                             "Se termino la conexión con cliente: " + self.ip + "en el puerto " + str(self.port))
 
@@ -103,7 +102,23 @@ class ClienteThread(Thread):
                             "Duracion: " + str(time_time) + " seconds wall time")
                         lk4.release()
                         self.sock.close()
+
                         break
+                h = hash_file(self.filename)
+                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                            "Enviando Hash")
+                self.sock.send("HASH".encode())
+                self.sock.send(h.encode())
+                resp = self.sock.recv(SIZE).decode()
+                if resp=="ERROR":
+                    lk4.acquire()
+                    self.logger.info("El usuario con ip: "+ self.ip + "recibio el archivo mal")
+                    lk4.release()
+                else:
+                    lk4.acquire()
+                    self.logger.info("El usuario con ip: "+ self.ip + "recibio el archivo corrrecto")
+                    lk4.release()
+                
             else:
                 self.sock.close()
                 lk2.release()
@@ -194,8 +209,7 @@ def accept_connections(logger):
             lk.acquire()
             lk4.acquire()
             if clientes_enviados == n_clientes:
-                for t in clientesThreads:
-                    t.join()
+               
 
                 logger.info("Cerrando conexiones de clientes ")
 
@@ -204,7 +218,7 @@ def accept_connections(logger):
                 clientes_enviados = 0
 
                 clientes_listos = 0
-
+                n_clientes=0
                 while n_clientes == 0:
                     n_clientes = input(
                         "Ingrese el numero de clientes a esperar para mandar el archivo:  ")
@@ -226,7 +240,7 @@ def accept_connections(logger):
             lk4.acquire()
             logger.error(str(e))
             lk4.release()
-            print(e)
+     
             if not lk.acquire(False):
                 lk.release()
             if not lk2.acquire(False):

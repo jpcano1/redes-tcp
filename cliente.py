@@ -28,11 +28,20 @@ class Cliente:
             self.logger.info("Se empezó a recibir el archivo")
             while True:
                 #print('receiving data...')
-                data = s.recv(1024)
+                data = self.sock.recv(1024)
                 # print('data=%s'%(data))
-                if not data:
+                if data.decode()=="HASH":
                     f.close()
                     print ('file close()')
+                    h=self.sock.recv(1024).decode()
+                    h_received = hash_file('received_file.txt')
+                    self.logger.info("Recibiendo hash del archivo y verificando")
+                    mes = "ERROR"
+
+                    if h == h_received:
+                        self.logger.info("El archivo llego igual")
+                        mes= "CORRECTO"
+                    self.sock.send(mes.encode())
                     break
                 # write data to a file
                 f.write(data)
@@ -58,6 +67,26 @@ def create_client_log():
     logger.addHandler(ch)
 
     return logger
+
+def hash_file(filename):
+    """"This function returns the SHA-1 hash
+    of the file passed into it"""
+
+    # make a hash object
+    h = hashlib.sha1()
+
+    # open file for reading in binary mode
+    with open(filename, 'rb') as file:
+
+        # loop till the end of the file
+        chunk = 0
+        while chunk != b'':
+            # read only 1024 bytes at a time
+            chunk = file.read(1024)
+            h.update(chunk)
+
+    # return the hex representation of digest
+    return h.hexdigest()
 
 if __name__ == '__main__':
     s = socket.socket()
