@@ -16,3 +16,6 @@ INFO:server_logger:Binding port: 9090
 INFO:server_logger:La conexión se ha establecido: IP: 127.0.0.1 en el puerto: 54774
 INFO:server_logger:Creando Socket
 INFO:server_logger:Binding port: 9090
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexión se ha establecido: IP: 127.0.0.1 en el puerto: 55582

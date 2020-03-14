@@ -136,7 +136,7 @@ def create_socket(logger):
         global s
         # ip fija del servidor
         host = "localhost"
-        port = 9090
+        port = 24
         s = socket.socket()
         logger.info('Creando Socket')
     except socket.error as msg:
