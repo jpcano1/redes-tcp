@@ -12,7 +12,7 @@ class ClienteThread(Thread):
     def __init__(self, ip, port, sock, filename, logger):
         Thread.__init__(self)
         self.ip = ip
-        # self.port = port
+        self.port = port
         self.sock = sock
         self.filename = filename
         self.logger = logger
@@ -51,7 +51,7 @@ class ClienteThread(Thread):
                 self.sock.close()
                 lk4.acquire()
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Se termino la conexión con " +
-                                 self.ip + "en el puerto " + int(9090))
+                                 self.ip + "en el puerto " + int(self.port))
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Respuesta no esperada")
                 lk4.release()
 
@@ -93,10 +93,10 @@ class ClienteThread(Thread):
                         time_time = end_time-start_time
                         lk4.acquire()
                         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                            "Envio Terminado con cliente: " + self.ip + "en el puerto " + str(9090))
+                            "Envio Terminado con cliente: " + self.ip + "en el puerto " + str(self.port))
                         h = hash_file(self.filename)
                         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                            "Se termino la conexión con cliente: " + self.ip + "en el puerto " + str(9090))
+                            "Se termino la conexión con cliente: " + self.ip + "en el puerto " + str(self.port))
 
                         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                             "Duracion: " + str(time_time) + " seconds wall time")
@@ -110,7 +110,7 @@ class ClienteThread(Thread):
                 lk.release()
                 lk4.acquire()
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Se terminó la conexión con " +
-                                 self.ip + "en el puerto " + str(9090))
+                                 self.ip + "en el puerto " + str(self.port))
                 lk4.release()
 
         except Exception as e:
@@ -205,7 +205,7 @@ def accept_connections(logger):
 
                 while n_clientes == 0:
                     n_clientes = input(
-                        "Ingrese el número de clientes a esperar para mandar el archivo:  ")
+                        "Ingrese el numero de clientes a esperar para mandar el archivo:  ")
                     n_clientes = int(n_clientes)
                 lk2.release()
                 lk.release()
@@ -288,7 +288,7 @@ if __name__ == '__main__':
     global clientes_listos
     global clientes_enviados
     n_clientes = int(
-        input("Ingrese el número de clientes a esperar para mandar el archivo:  "))
+        input("Ingrese el numero de clientes a esperar para mandar el archivo:  "))
 
     all_connections = []
     all_address = []
