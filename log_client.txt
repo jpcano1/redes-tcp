@@ -66,3 +66,19 @@ INFO:client_logger:Se termino de recibir el archivo
 INFO:client_logger:2020-03-15-16:04:04 Duracion: 0.0012629032135009766 seconds wall time
 INFO:client_logger:Recibiendo hash del archivo y verificando
 INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Cliente conectado
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: prueba1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-03-15-16:29:30 Duracion: 0.00096893310546875 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Cliente conectado
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: prueba1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-03-15-16:30:32 Duracion: 0.09247446060180664 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego mal

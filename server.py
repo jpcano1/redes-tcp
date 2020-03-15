@@ -6,6 +6,7 @@ import logging
 import time
 import hashlib
 from datetime import datetime
+from time import sleep
 # Creates a socket
 
 
@@ -104,6 +105,7 @@ class ClienteThread(Thread):
                     print(h)
                     self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
                                 " Enviando Hash")
+                    sleep(1)
                     self.sock.send("HASH".encode())
                     data = self.sock.recv(SIZE).decode()
                     if data == LISTO:

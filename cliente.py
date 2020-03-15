@@ -35,7 +35,7 @@ class Cliente:
                     print('receiving data...')
                     print(data.decode())
 
-                    if data.decode()=="HASH":
+                    if "HASH" in data.decode():
                         print("Se termino de recibir el archivo")
                         f.close()
                         print('file closed')
