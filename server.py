@@ -151,8 +151,8 @@ def create_socket(logger):
         global port
         global s
         # ip fija del servidor
-        host = "10.0.0.4"
-        #host = "localhost"
+        #host = "10.0.0.4"
+        host = "localhost"
         port = 9090
         s = socket.socket()
         logger.info('Creando Socket')

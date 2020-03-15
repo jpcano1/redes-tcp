@@ -33,7 +33,7 @@ class Cliente:
                 self.logger.info("Se empezó a recibir el archivo")
                 while True:
                     #print('receiving data...')
-                   
+                    
                     # print('data=%s'%(data))
                     
                     if data.decode()=="HASH":
