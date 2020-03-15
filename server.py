@@ -51,14 +51,14 @@ class ClienteThread(Thread):
             else:
                 self.sock.close()
                 lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Se termino la conexión con " +
-                                 self.ip + "en el puerto " + int(self.port))
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Respuesta no esperada")
+                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Se termino la conexión con: " +
+                                 self.ip + "en el puerto: " + int(self.port))
+                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Respuesta no esperada")
                 lk4.release()
 
             while clientes_listos < n_clientes:
                 lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "No se ha completado el numero de clientes")
+                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " No se ha completado el numero de clientes")
                 lk4.release()
                 continue
 
@@ -68,7 +68,7 @@ class ClienteThread(Thread):
             lk.acquire()
             if clientes_enviados < n_clientes:
                 lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Enviando archivo a cliente " + self.ip)
+                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Enviando archivo a cliente: " + self.ip)
                 lk4.release()
                 clientes_listos -= 1
                 clientes_enviados += 1
@@ -94,7 +94,7 @@ class ClienteThread(Thread):
                     time_time = end_time-start_time
                     lk4.acquire()
                     self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                        "Envio Terminado con cliente: " + self.ip + "en el puerto " + str(self.port))
+                        " Envio Terminado con cliente: " + self.ip + "en el puerto: " + str(self.port))
                     
                     self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                         "Duracion: " + str(time_time) + " seconds wall time")
@@ -106,17 +106,17 @@ class ClienteThread(Thread):
                 h = hash_file(self.filename)
                 print(h)
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                            "Enviando Hash")
+                            " Enviando Hash")
                 self.sock.send("HASH".encode())
                 self.sock.send(h.encode())
                 resp = self.sock.recv(SIZE).decode()
                 if resp=="ERROR":
                     lk4.acquire()
-                    self.logger.info("El usuario con ip: "+ self.ip + "recibio el archivo mal")
+                    self.logger.info("El usuario con ip: "+ self.ip + " recibio el archivo mal")
                     lk4.release()
                 else:
                     lk4.acquire()
-                    self.logger.info("El usuario con ip: "+ self.ip + "recibio el archivo corrrecto")
+                    self.logger.info("El usuario con ip: "+ self.ip + " recibio el archivo correcto")
                     lk4.release()
                 self.sock.close()
             else:
@@ -125,8 +125,8 @@ class ClienteThread(Thread):
                 lk3.release()
                 lk.release()
                 lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Se terminó la conexión con " +
-                                 self.ip + "en el puerto " + str(self.port))
+                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Se terminó la conexión con: " +
+                                 self.ip + " en el puerto: " + str(self.port))
                 lk4.release()
 
         except Exception as e:
@@ -152,15 +152,14 @@ def create_socket(logger):
         global s
         # ip fija del servidor
         #host = "10.0.0.4"
-        host = "localhost"
+        host = "127.0.0.1"
         port = 9090
         s = socket.socket()
         logger.info('Creando Socket')
     except socket.error as msg:
-        logger.error("Socket creation error:  " + str(msg))
+        logger.error("Socket creation error: " + str(msg))
 
 # binding socket listening for connections
-
 
 def binding_socket(logger):
     try:

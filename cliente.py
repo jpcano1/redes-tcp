@@ -108,7 +108,7 @@ if __name__ == '__main__':
     s = socket.socket()
     host = input("Ingrese el host de conexión, presione intro si quiere dejar uno predeterminado: ")
     if host == '':
-        host = 'localhost'
+        host = '127.0.0.1'
     # host = "localhost"
     port = 9090
     logger = create_client_log()

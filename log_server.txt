@@ -4015,3 +4015,14 @@ INFO:server_logger:2020-03-15-13:52:53Envio Terminado con cliente: 127.0.0.1en e
 INFO:server_logger:2020-03-15-13:52:53Duracion: 5.221366882324219e-05 seconds wall time
 INFO:server_logger:2020-03-15-13:52:53Enviando Hash
 INFO:server_logger:El usuario con ip: 127.0.0.1recibio el archivo corrrecto
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexión se ha establecido: IP: 127.0.0.1 en el puerto: 52320
+INFO:server_logger:2020-03-15-13:57:312020-03-15-13:57:31New thread started for 127.0.0.1:9090
+INFO:server_logger:2020-03-15-13:57:312020-03-15-13:57:31Recibiendo Saludo de cliente: 127.0.0.1
+INFO:server_logger:2020-03-15-13:57:31Enviando Confirmacion conexion a cliente: 127.0.0.1
+INFO:server_logger:2020-03-15-13:57:31Cliente: 127.0.0.1 Listo para recibir archivos
+INFO:server_logger:2020-03-15-13:57:31 Enviando archivo a cliente: 127.0.0.1
+INFO:server_logger:2020-03-15-13:57:31 Envio Terminado con cliente: 127.0.0.1en el puerto: 9090
+INFO:server_logger:2020-03-15-13:57:31Duracion: 6.318092346191406e-05 seconds wall time
+INFO:server_logger:2020-03-15-13:57:31Enviando Hash
