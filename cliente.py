@@ -33,17 +33,19 @@ class Cliente:
                 self.logger.info("Se empezó a recibir el archivo")
                 while True:
                     print('receiving data...')
-                    
+                    print(data.decode())
+
                     if data.decode()=="HASH":
                         print("Se termino de recibir el archivo")
                         f.close()
                         print('file closed')
+                        self.sock.send(LISTO.encode())
                         self.logger.info("Se termino de recibir el archivo")
                         end_time = time.time()
                         time_time = end_time - start_time
                         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
                                         " Duracion: " + str(time_time) + " seconds wall time")
-                        h=self.sock.recv(1024).decode()
+                        h=self.sock.recv(SIZE).decode()
                         h_received = hash_file(FILENAME)
                         self.logger.info("Recibiendo hash del archivo y verificando")
                         mes = "ERROR"

@@ -105,7 +105,9 @@ class ClienteThread(Thread):
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                             " Enviando Hash")
                 self.sock.send("HASH".encode())
-                self.sock.send(h.encode())
+                data = self.sock.recv(SIZE).decode()
+                if data == LISTO:
+                    self.sock.send(h.encode())
                 resp = self.sock.recv(SIZE).decode()
                 if resp=="ERROR":
                     lk4.acquire()
@@ -188,7 +190,9 @@ def accept_connections(logger):
         c.close()
     del all_connections[:]
     del all_address[:]
-    filename = input("Ingrese el nombre del archivo a enviar: ")
+    filename = input("Ingrese el nombre del archivo a enviar, presione intro si quiere dejar uno predeterminado: ")
+    if filename == '':
+        filename = 'prueba.txt'
     while True:
         try:
             conn, address = s.accept()
