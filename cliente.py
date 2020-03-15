@@ -32,9 +32,7 @@ class Cliente:
                 print( 'file opened')
                 self.logger.info("Se empezó a recibir el archivo")
                 while True:
-                    #print('receiving data...')
-                    
-                    # print('data=%s'%(data))
+                    print('receiving data...')
                     
                     if data.decode()=="HASH":
                         print("Se va a recibir el hash")
