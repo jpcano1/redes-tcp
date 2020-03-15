@@ -99,9 +99,6 @@ class ClienteThread(Thread):
                     self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                         "Duracion: " + str(time_time) + " seconds wall time")
                     lk4.release()
-                
-
-                   
 
                 h = hash_file(self.filename)
                 print(h)
