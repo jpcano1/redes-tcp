@@ -79,32 +79,29 @@ class ClienteThread(Thread):
                 f = open(self.filename, 'rb')
                 start_time = time.time()
 
-                while True:
+                
+                l = f.read(SIZE)
+                while l:
+                    self.sock.send(l)
+                    # print('Sent ',repr(l))
+
                     l = f.read(SIZE)
-                    while l:
-                        self.sock.send(l)
-                        # print('Sent ',repr(l))
+                if not l:
+                    f.close()
 
-                        l = f.read(SIZE)
-                        if not l:
-                            f.close()
+                    end_time = time.time()
 
-                            end_time = time.time()
+                    time_time = end_time-start_time
+                    lk4.acquire()
+                    self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                        "Envio Terminado con cliente: " + self.ip + "en el puerto " + str(self.port))
+                    
+                    self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                        "Duracion: " + str(time_time) + " seconds wall time")
+                    lk4.release()
+                
 
-                            time_time = end_time-start_time
-                            lk4.acquire()
-                            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                                "Envio Terminado con cliente: " + self.ip + "en el puerto " + str(self.port))
-                            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                                "Se termino la conexión con cliente: " + self.ip + "en el puerto " + str(self.port))
-
-                            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                                "Duracion: " + str(time_time) + " seconds wall time")
-                            lk4.release()
-                        
-
-                            break
-                            break
+                   
 
                 h = hash_file(self.filename)
                 print(h)
@@ -154,8 +151,8 @@ def create_socket(logger):
         global port
         global s
         # ip fija del servidor
-        # host = "10.0.0.4"
-        host = "localhost"
+        host = "10.0.0.4"
+        #host = "localhost"
         port = 9090
         s = socket.socket()
         logger.info('Creando Socket')
