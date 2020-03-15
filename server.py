@@ -86,24 +86,26 @@ class ClienteThread(Thread):
                         # print('Sent ',repr(l))
 
                         l = f.read(SIZE)
-                    if not l:
-                        f.close()
+                        if not l:
+                            f.close()
 
-                        end_time = time.time()
+                            end_time = time.time()
 
-                        time_time = end_time-start_time
-                        lk4.acquire()
-                        self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                            "Envio Terminado con cliente: " + self.ip + "en el puerto " + str(self.port))
-                        self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                            "Se termino la conexión con cliente: " + self.ip + "en el puerto " + str(self.port))
+                            time_time = end_time-start_time
+                            lk4.acquire()
+                            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                                "Envio Terminado con cliente: " + self.ip + "en el puerto " + str(self.port))
+                            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                                "Se termino la conexión con cliente: " + self.ip + "en el puerto " + str(self.port))
 
-                        self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                            "Duracion: " + str(time_time) + " seconds wall time")
-                        lk4.release()
-                     
+                            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                                "Duracion: " + str(time_time) + " seconds wall time")
+                            lk4.release()
+                        
 
-                        break
+                            break
+                            break
+
                 h = hash_file(self.filename)
                 print(h)
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 

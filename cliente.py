@@ -25,37 +25,45 @@ class Cliente:
         FILENAME= self.sock.recv(SIZE).decode()
         self.logger.info("El nombre del archivo es: " + FILENAME)
         start_time = time.time()
-        data =self.sock.recv(SIZE).decode()
-        with open(FILENAME, 'wb') as f:
-            print( 'file opened')
-            self.logger.info("Se empezó a recibir el archivo")
-            while True:
-                #print('receiving data...')
-                data = self.sock.recv(1024)
-                # print('data=%s'%(data))
-                if data.decode()=="HASH":
-                    f.close()
-                    end_time = time.time()
-                    time_time = end_time - start_time
-                    self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
-                                    "Duracion: " + str(time_time) + " seconds wall time")
-                    print ('file close()')
-                    h=self.sock.recv(1024).decode()
-                    print(h)
-                    h_received = hash_file('received_file.txt')
-                    print(h_received)
-                    self.logger.info("Recibiendo hash del archivo y verificando")
-                    mes = "ERROR"
+        data =self.sock.recv(SIZE)
+        try:
+           
+            with open(FILENAME, 'wb') as f:
+                print( 'file opened')
+                self.logger.info("Se empezó a recibir el archivo")
+                while True:
+                    #print('receiving data...')
+                   
+                    # print('data=%s'%(data))
+                    
+                    if data.decode()=="HASH":
+                        f.close()
+                        self.logger.info("Se termino de recibir el archivo")
+                        end_time = time.time()
+                        time_time = end_time - start_time
+                        self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
+                                        "Duracion: " + str(time_time) + " seconds wall time")
+                        print ('file close()')
+                        h=self.sock.recv(1024).decode()
+                        print(h)
+                        h_received = hash_file('received_file.txt')
+                        print(h_received)
+                        self.logger.info("Recibiendo hash del archivo y verificando")
+                        mes = "ERROR"
 
-                    if h == h_received:
-                        self.logger.info("El archivo llego igual")
-                        mes= "CORRECTO"
-                    else:
-                        self.logger.info("El archivo llego mal")
-                    self.sock.send(mes.encode())
-                    break
-                # write data to a file
-                f.write(data)
+                        if h == h_received:
+                            self.logger.info("El archivo llego igual")
+                            mes= "CORRECTO"
+                        else:
+                            self.logger.info("El archivo llego mal")
+                        self.sock.send(mes.encode())
+                        break
+                    # write data to a file
+                    f.write(data)
+                    data = self.sock.recv(SIZE)
+        except Exception as e:
+            print(e)
+       
 
 def create_client_log():
     fid = "log_client.txt"
