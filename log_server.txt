@@ -10004,3 +10004,15 @@ INFO:server_logger:Binding port: 9090
 ERROR:server_logger:Socket binding error: [Errno 98] Address already in useRetrying
 INFO:server_logger:Binding port: 9090
 ERROR:server_logger:Socket binding error: [Errno 98] Address already in useRetrying
+INFO:server_logger:Creando Socket
+INFO:server_logger:Binding port: 9090
+INFO:server_logger:La conexión se ha establecido: IP: 127.0.0.1 en el puerto: 52656
+INFO:server_logger:2020-03-15-16:04:042020-03-15-16:04:04New thread started for 127.0.0.1:9090
+INFO:server_logger:2020-03-15-16:04:042020-03-15-16:04:04Recibiendo Saludo de cliente: 127.0.0.1
+INFO:server_logger:2020-03-15-16:04:04Enviando Confirmacion conexion a cliente: 127.0.0.1
+INFO:server_logger:2020-03-15-16:04:04Cliente: 127.0.0.1 Listo para recibir archivos
+INFO:server_logger:2020-03-15-16:04:04 Enviando archivo a cliente: 127.0.0.1
+INFO:server_logger:2020-03-15-16:04:04 Envio Terminado con cliente: 127.0.0.1en el puerto: 9090
+INFO:server_logger:2020-03-15-16:04:04Duracion: 0.00011086463928222656 seconds wall time
+INFO:server_logger:2020-03-15-16:04:04 Enviando Hash
+INFO:server_logger:El usuario con ip: 127.0.0.1 recibio el archivo correcto

@@ -100,24 +100,24 @@ class ClienteThread(Thread):
                         "Duracion: " + str(time_time) + " seconds wall time")
                     lk4.release()
 
-                h = hash_file(self.filename)
-                print(h)
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                            " Enviando Hash")
-                self.sock.send("HASH".encode())
-                data = self.sock.recv(SIZE).decode()
-                if data == LISTO:
-                    self.sock.send(h.encode())
-                resp = self.sock.recv(SIZE).decode()
-                if resp=="ERROR":
-                    lk4.acquire()
-                    self.logger.info("El usuario con ip: "+ self.ip + " recibio el archivo mal")
-                    lk4.release()
-                else:
-                    lk4.acquire()
-                    self.logger.info("El usuario con ip: "+ self.ip + " recibio el archivo correcto")
-                    lk4.release()
-                self.sock.close()
+                    h = hash_file(self.filename)
+                    print(h)
+                    self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
+                                " Enviando Hash")
+                    self.sock.send("HASH".encode())
+                    data = self.sock.recv(SIZE).decode()
+                    if data == LISTO:
+                        self.sock.send(h.encode())
+                    resp = self.sock.recv(SIZE).decode()
+                    if resp=="ERROR":
+                        lk4.acquire()
+                        self.logger.info("El usuario con ip: "+ self.ip + " recibio el archivo mal")
+                        lk4.release()
+                    else:
+                        lk4.acquire()
+                        self.logger.info("El usuario con ip: "+ self.ip + " recibio el archivo correcto")
+                        lk4.release()
+                    self.sock.close()
             else:
                 self.sock.close()
                 lk2.release()
