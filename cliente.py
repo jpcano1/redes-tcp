@@ -37,13 +37,13 @@ class Cliente:
                     # print('data=%s'%(data))
                     
                     if data.decode()=="HASH":
-                        print("Recibiendo Hash")
+                        print("Se va a recibir el hash")
                         f.close()
                         self.logger.info("Se termino de recibir el archivo")
                         end_time = time.time()
                         time_time = end_time - start_time
                         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
-                                        "Duracion: " + str(time_time) + " seconds wall time")
+                                        " Duracion: " + str(time_time) + " seconds wall time")
                         print ('file close()')
                         h=self.sock.recv(1024).decode()
                         print(h)
@@ -53,7 +53,7 @@ class Cliente:
                         mes = "ERROR"
 
                         if h == h_received:
-                            self.logger.info("El archivo llego igual")
+                            self.logger.info("El archivo llego correctamente")
                             mes= "CORRECTO"
                         else:
                             self.logger.info("El archivo llego mal")
@@ -106,7 +106,9 @@ def hash_file(filename):
 
 if __name__ == '__main__':
     s = socket.socket()
-    host = input("Ingrese el host de conexión ej: 'localhost': ")
+    host = input("Ingrese el host de conexión, presione intro si quiere dejar uno predeterminado: ")
+    if host == '':
+        host = 'localhost'
     # host = "localhost"
     port = 9090
     logger = create_client_log()
