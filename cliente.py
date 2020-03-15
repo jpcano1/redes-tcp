@@ -22,9 +22,11 @@ class Cliente:
         if data == CONECTADO:
             self.sock.send(LISTO.encode())
             self.logger.info("Conectado con el servidor")
-        data = self.sock.recv(SIZE).decode()
+        FILENAME= self.sock.recv(SIZE).decode()
+        self.logger.info("El nombre del archivo es: " + FILENAME)
         start_time = time.time()
-        with open('received_file.txt', 'wb') as f:
+        data =self.sock.recv(SIZE).decode()
+        with open(FILENAME, 'wb') as f:
             print( 'file opened')
             self.logger.info("Se empezó a recibir el archivo")
             while True:

@@ -75,7 +75,7 @@ class ClienteThread(Thread):
                 lk3.release()
                 lk2.release()
                 lk.release()
-
+                self.sock.send((self.filename[:-4]+str(clientes_enviados)+self.filename[self.filename.find('.')::]).encode())
                 f = open(self.filename, 'rb')
                 start_time = time.time()
 
