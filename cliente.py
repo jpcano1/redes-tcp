@@ -37,6 +37,7 @@ class Cliente:
                     # print('data=%s'%(data))
                     
                     if data.decode()=="HASH":
+                        print("Recibiendo Hash")
                         f.close()
                         self.logger.info("Se termino de recibir el archivo")
                         end_time = time.time()
@@ -46,7 +47,7 @@ class Cliente:
                         print ('file close()')
                         h=self.sock.recv(1024).decode()
                         print(h)
-                        h_received = hash_file('received_file.txt')
+                        h_received = hash_file(FILENAME)
                         print(h_received)
                         self.logger.info("Recibiendo hash del archivo y verificando")
                         mes = "ERROR"
