@@ -61,6 +61,7 @@ class ClienteThread(Thread):
                 lk4.acquire()
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " No se ha completado el numero de clientes")
                 lk4.release()
+                sleep(1)
                 continue
 
             # enviar archivo
