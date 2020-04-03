@@ -317,11 +317,11 @@ if __name__ == '__main__':
     CONECTADO = "CONECTADO"
     LISTO = "LISTO"
     clientes_listos = 0
+    clientesThreads = []
     lk = threading.Lock()
     lk2 = threading.Lock()
     lk3 = threading.Lock()
     lk4 = threading.Lock()
-    clientesThreads = []
 
     clientes_enviados = 0
 
