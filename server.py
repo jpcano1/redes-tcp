@@ -59,7 +59,7 @@ class ClienteThread(Thread):
 
             while clientes_listos < n_clientes:
                 lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " No se ha completado el numero de clientes")
+                #self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " No se ha completado el numero de clientes")
                 lk4.release()
                 continue
 
