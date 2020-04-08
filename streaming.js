@@ -1,13 +1,3 @@
-const express = require('express')
-const app = express()
-const fs = require('fs')
-const dgram = require('dgram');
-
-const path = './video.mp4'
-const server = dgram.createSocket('udp4');
-
-app.set('trust proxy', true)
-
 //Multicast Server sending messages
 var news = [
     "Borussia Dortmund wins German championship",
@@ -20,6 +10,8 @@ var news = [
  
  var PORT = 41848;
  var MCAST_ADDR = "230.185.192.108"; //not your IP and should be a Class D address, see http://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml
+ var dgram = require('dgram'); 
+ var server = dgram.createSocket("udp4"); 
  server.bind(PORT, function(){
      server.setBroadcast(true);
      server.setMulticastTTL(128);
