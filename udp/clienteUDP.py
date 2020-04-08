@@ -113,8 +113,8 @@ if __name__ == '__main__':
     servidor = (host,port)
     logger = create_client_log()
     # s.connect((host, port))
-    ipcliente='localhost'
-    s.bind((ipcliente,port))
+    # ipcliente='localhost'
+    # s.bind((ipcliente,port))
     print("Conectado")
     logger.info("Cliente conectado")
     cliente = Cliente(servidor,s, logger)
