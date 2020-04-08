@@ -18,7 +18,7 @@ var news = [
     "Nation's rappers down to last two samples"
  ];
  
- var PORT = 41848;
+ var PORT = 1;
  var MCAST_ADDR = "230.185.192.108"; //not your IP and should be a Class D address, see http://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml
  server.bind(PORT, function(){
      server.setBroadcast(true);
