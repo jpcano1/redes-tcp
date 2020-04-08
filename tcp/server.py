@@ -174,7 +174,7 @@ def binding_socket(logger):
         # se escucha para encontrar conexiones
         s.listen(25)
     except socket.error as msg:
-        logger.error(("Socket binding error: " + str(msg)+"Retrying"))
+        logger.error(("Socket binding error: " + str(msg)+" Retrying"))
 
         binding_socket(logger)
 
