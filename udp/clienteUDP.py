@@ -18,6 +18,7 @@ class Cliente:
         self.server = servidor
 
     def procesar(self):
+      
         self.sock.sendto(HOLA.encode(),self.server)
         data = self.sock.recv(SIZE).decode()
         if data == CONECTADO:

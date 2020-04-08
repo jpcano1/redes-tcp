@@ -30,10 +30,10 @@ class ClienteThread(Thread):
         global clientes_listos
         global clientes_enviados
         try:
-            data = self.sock.recv(SIZE).decode()
-            sleep(0.000001)
+            data = self.message.decode()
+            
             lk4.acquire()
-            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Recibiendo Saludo de cliente: " + self.ip)
+            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Recibiendo Saludo de cliente: " + self.ip[0])
             lk4.release()
             if data == HOLA:
                 self.sock.sendto(CONECTADO.encode(),self.ip)
@@ -70,7 +70,7 @@ class ClienteThread(Thread):
             lk.acquire()
             if clientes_enviados < n_clientes:
                 lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Enviando archivo a cliente: " + self.ip)
+                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Enviando archivo a cliente: " + self.ip[0])
                 lk4.release()
                 clientes_listos -= 1
                 clientes_enviados += 1
@@ -96,7 +96,7 @@ class ClienteThread(Thread):
                     time_time = end_time-start_time
                     lk4.acquire()
                     self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                        " Envio Terminado con cliente: " + self.ip + "en el puerto: " + str(self.port))
+                        " Envio Terminado con cliente: " + self.ip[0] + "en el puerto: " + str(self.port))
                     
                     self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
                         "Duracion: " + str(time_time) + " seconds wall time")
@@ -114,11 +114,11 @@ class ClienteThread(Thread):
                     resp = self.sock.recv(SIZE).decode()
                     if resp=="ERROR":
                         lk4.acquire()
-                        self.logger.info("El usuario con ip: "+ self.ip + " recibio el archivo mal")
+                        self.logger.info("El usuario con ip: "+ self.ip[0] + " recibio el archivo mal")
                         lk4.release()
                     else:
                         lk4.acquire()
-                        self.logger.info("El usuario con ip: "+ self.ip + " recibio el archivo correcto")
+                        self.logger.info("El usuario con ip: "+ self.ip[0] + " recibio el archivo correcto")
                         lk4.release()
                     self.sock.close()
             else:
@@ -128,7 +128,7 @@ class ClienteThread(Thread):
                 lk.release()
                 lk4.acquire()
                 self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Se terminó la conexión con: " +
-                                 self.ip + " en el puerto: " + str(self.port))
+                                 self.ip[0] + " en el puerto: " + str(self.port))
                 lk4.release()
 
         except Exception as e:
