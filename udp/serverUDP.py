@@ -77,7 +77,7 @@ class ClienteThread(Thread):
                 lk3.release()
                 lk2.release()
                 lk.release()
-                self.sock.sendto((self.filename[:-4]+str(clientes_enviados)+self.filename[self.filename.find('.')::]).encode(),self.ip())
+                self.sock.sendto((self.filename[:-4]+str(clientes_enviados)+self.filename[self.filename.find('.')::]).encode(),self.ip)
                 f = open(self.filename, 'rb')
                 start_time = time.time()
 
@@ -157,6 +157,7 @@ def create_socket(logger):
         host = "0.0.0.0"
         port = 9090
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         logger.info('Creando Socket')
     except socket.error as msg:
         logger.error("Socket creation error: " + str(msg))
@@ -206,9 +207,9 @@ def accept_connections(logger):
             # all_connections.append(conn)
             # all_address.append(address)
             tcliente = ClienteThread(recvdata,addr,s, filename, logger)
-            # sleep(0.2)
             tcliente.start()
             clientesThreads.append(tcliente)
+            sleep(1)
             lk2.acquire()
             lk3.acquire()
             lk.acquire()
