@@ -110,13 +110,13 @@ if __name__ == '__main__':
     if host == '':
         host = '0.0.0.0'
     # host = "localhost"
-    port = int(input("ingrese el puerto"))
+    port = int(input("ingrese el puerto: "))
     servidor = (host,port)
     logger = create_client_log()
     # s.connect((host, port))
     # ipcliente='localhost'
     # s.bind((ipcliente,port))
     print("Conectado")
-    logger.info("Cliente conectado")
+    # logger.info("Cliente conectado")
     cliente = Cliente(servidor,s, logger)
     cliente.procesar()
