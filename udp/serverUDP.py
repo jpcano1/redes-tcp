@@ -200,7 +200,7 @@ def accept_connections(logger):
     del all_address[:]
     filename = input("Ingrese el nombre del archivo a enviar, presione intro si quiere dejar uno predeterminado: ")
     if filename == '':
-        filename = 'prueba.txt'
+        filename = 'data/arch1.txt'
     while True:
         try:
             #conn, address = s.accept()

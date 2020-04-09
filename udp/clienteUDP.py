@@ -107,11 +107,11 @@ def hash_file(filename):
 
 if __name__ == '__main__':
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    host = input("Ingrese el host de conexión, presione intro si quiere dejar uno predeterminado: ")
-    if host == '':
-        host = '0.0.0.0'
-    # host = "localhost"
-    port = int(input("ingrese el puerto: "))
+    # host = input("Ingrese el host de conexión, presione intro si quiere dejar uno predeterminado: ")
+    # if host == '':
+    #     host = '0.0.0.0'
+    host = "54.91.132.110"
+    port = 9090
     servidor = (host,port)
     logger = create_client_log()
     # s.connect((host, port))

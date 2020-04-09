@@ -1,0 +1,2 @@
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
