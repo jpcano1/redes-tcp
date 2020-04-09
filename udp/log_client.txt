@@ -21,3 +21,46 @@ INFO:client_logger:Conectado con el servidor
 INFO:client_logger:Conectado con el servidor
 INFO:client_logger:Conectado con el servidor
 INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo

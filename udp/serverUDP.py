@@ -382,7 +382,7 @@ def handle_cliente_request(data,sock,ip,logger,filename):
                         "Duracion: " + str(time_time) + " seconds wall time")
                     lk4.release()
 
-                    h = hash_file('./data/'+filename)
+                    h = hash_file(filename)
                     print(h)
                     logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
                                 " Enviando Hash")
