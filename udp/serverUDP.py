@@ -354,9 +354,11 @@ def handle_cliente_request(data,sock,ip,logger,filename):
                 lk2.release()
                 lk.release()
                 lk_sock.acquire()
-                sock.sendto((filename[:-4]+'_'+str(clientes_enviados)+filename[filename.find('.')::]).encode(),ip)
+                fil = (filename[:-4]+'_'+str(clientes_enviados)+filename[filename.find('.')::])
+                print(fil)
+                sock.sendto(fil.encode(),ip)
                 lk_sock.release()
-                f = open(filename, 'rb')
+                f = open('./data/'+filename, 'rb')
                 start_time = time.time()
 
                 
@@ -382,7 +384,7 @@ def handle_cliente_request(data,sock,ip,logger,filename):
                         "Duracion: " + str(time_time) + " seconds wall time")
                     lk4.release()
 
-                    h = hash_file(filename)
+                    h = hash_file('./data/'+filename)
                     print(h)
                     logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
                                 " Enviando Hash")
