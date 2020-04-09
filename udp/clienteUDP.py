@@ -109,7 +109,7 @@ if __name__ == '__main__':
     # host = input("Ingrese el host de conexión, presione intro si quiere dejar uno predeterminado: ")
     # if host == '':
     #     host = '0.0.0.0'
-    host = "54.91.132.110"
+    host = "192.168.1.10"
     port = 9090
     servidor = (host,port)
     logger = create_client_log()
