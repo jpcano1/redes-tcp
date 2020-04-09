@@ -357,7 +357,7 @@ def handle_cliente_request(data,sock,ip,logger,filename):
                 lk.release()
                 lk_sock.acquire()
                 fil = (filename[:-4]+'_'+str(clientes_enviados)+filename[filename.find('.')::])
-                print(fil)
+                # print(fil)
                 sock.sendto(fil.encode(),ip)
                 lk_sock.release()
                 f = open('./data/'+filename, 'rb')
@@ -387,10 +387,10 @@ def handle_cliente_request(data,sock,ip,logger,filename):
                     lk4.release()
 
                     h = hash_file('./data/'+filename)
-                    print(h)
+                    # print(h)
                     logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
                                 " Enviando Hash")
-                    sleep(1)
+                    sleep(0.5)
                     lk_sock.acquire()
                     sock.sendto("HASH".encode(),ip)
                     lk_sock.release()
@@ -413,7 +413,7 @@ def handle_cliente_request(data,sock,ip,logger,filename):
                         logger.info("El usuario con ip: "+ ip[0] + " recibio el archivo correcto")
                         lk4.release()
     except Exception as e:
-            print(e)
+            # print(e)
             if not lk.acquire(False):
                 lk.release()
             if not lk2.acquire(False):
