@@ -24,127 +24,131 @@ class ClienteThread(Thread):
         lk4.release()
 
     def run(self):
-        global n_clientes
+        handle_cliente_request(self.message.decode(),self.sock,self.ip,self.logger,self.filename)
+        sleep(0.5)
+        # global n_clientes
 
-        global SIZE
-        global clientes_listos
-        global clientes_enviados
-        try:
-            data = self.message.decode()
+        # global SIZE
+        # global clientes_listos
+        # global clientes_enviados
+        # try:
+        #     data = self.message.decode()
             
-            lk4.acquire()
-            self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Recibiendo Saludo de cliente: " + self.ip[0])
-            lk4.release()
-            if data == HOLA:
-                self.sock.sendto(CONECTADO.encode(),self.ip)
-                lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                    "Enviando Confirmacion conexion a cliente: " + self.ip[0])
-                lk4.release()
-            data = self.sock.recv(SIZE).decode()
-            if data == LISTO:
-                lk.acquire()
-                clientes_listos += 1
-                lk.release()
-                lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Cliente: "+self.ip[0] +
-                                 " Listo para recibir archivos")
-                lk4.release()
-            else:
-                self.sock.close()
-                lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Se termino la conexión con: " +
-                                 self.ip + "en el puerto: " + int(self.port))
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Respuesta no esperada")
-                lk4.release()
+        #     if data == HOLA:
+        #         lk4.acquire()
+        #         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Recibiendo Saludo de cliente: " + self.ip[0])
+        #         lk4.release()
+        #         self.sock.sendto(CONECTADO.encode(),self.ip)
+        #         lk4.acquire()
+        #         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+        #             "Enviando Confirmacion conexion a cliente: " + self.ip[0])
+        #         lk4.release()
+            
+            
+        #     data = self.sock.recv(SIZE).decode()
+        #     if data == LISTO:
+        #         lk.acquire()
+        #         clientes_listos += 1
+        #         lk.release()
+        #         lk4.acquire()
+        #         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Cliente: "+self.ip[0] +
+        #                          " Listo para recibir archivos")
+        #         lk4.release()
+        #     else:
+        #         self.sock.close()
+        #         lk4.acquire()
+        #         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Se termino la conexión con: " +
+        #                          self.ip + "en el puerto: " + int(self.port))
+        #         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Respuesta no esperada")
+        #         lk4.release()
 
-            while clientes_listos < n_clientes:
-                lk4.acquire()
-                #self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " No se ha completado el numero de clientes")
-                lk4.release()
-                continue
+        #     while clientes_listos < n_clientes:
+        #         lk4.acquire()
+        #         #self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " No se ha completado el numero de clientes")
+        #         lk4.release()
+        #         continue
 
-            # enviar archivo
-            lk3.acquire()
-            lk2.acquire()
-            lk.acquire()
-            if clientes_enviados < n_clientes:
-                lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Enviando archivo a cliente: " + self.ip[0])
-                lk4.release()
-                clientes_listos -= 1
-                clientes_enviados += 1
-                lk3.release()
-                lk2.release()
-                lk.release()
-                self.sock.sendto((self.filename[:-4]+str(clientes_enviados)+self.filename[self.filename.find('.')::]).encode(),self.ip)
-                f = open(self.filename, 'rb')
-                start_time = time.time()
+        #     # enviar archivo
+        #     lk3.acquire()
+        #     lk2.acquire()
+        #     lk.acquire()
+        #     if clientes_enviados < n_clientes:
+        #         lk4.acquire()
+        #         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Enviando archivo a cliente: " + self.ip[0])
+        #         lk4.release()
+        #         clientes_listos -= 1
+        #         clientes_enviados += 1
+        #         lk3.release()
+        #         lk2.release()
+        #         lk.release()
+        #         self.sock.sendto((self.filename[:-4]+str(clientes_enviados)+self.filename[self.filename.find('.')::]).encode(),self.ip)
+        #         f = open(self.filename, 'rb')
+        #         start_time = time.time()
 
                 
-                l = f.read(SIZE)
-                while l:
-                    self.sock.sendto(l,self.ip)
-                    # print('Sent ',repr(l))
+        #         l = f.read(SIZE)
+        #         while l:
+        #             self.sock.sendto(l,self.ip)
+        #             # print('Sent ',repr(l))
 
-                    l = f.read(SIZE)
-                if not l:
-                    f.close()
+        #             l = f.read(SIZE)
+        #         if not l:
+        #             f.close()
 
-                    end_time = time.time()
+        #             end_time = time.time()
 
-                    time_time = end_time-start_time
-                    lk4.acquire()
-                    self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                        " Envio Terminado con cliente: " + self.ip[0] + "en el puerto: " + str(self.port))
+        #             time_time = end_time-start_time
+        #             lk4.acquire()
+        #             self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+        #                 " Envio Terminado con cliente: " + self.ip[0] + "en el puerto: " + str(self.port))
                     
-                    self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
-                        "Duracion: " + str(time_time) + " seconds wall time")
-                    lk4.release()
+        #             self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+        #                 "Duracion: " + str(time_time) + " seconds wall time")
+        #             lk4.release()
 
-                    h = hash_file(self.filename)
-                    print(h)
-                    self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
-                                " Enviando Hash")
-                    sleep(1)
-                    self.sock.sendto("HASH".encode(),self.ip)
-                    data = self.sock.recv(SIZE).decode()
-                    if data == LISTO:
-                        self.sock.sendto(h.encode(),self.ip)
-                    resp = self.sock.recv(SIZE).decode()
-                    if resp=="ERROR":
-                        lk4.acquire()
-                        self.logger.info("El usuario con ip: "+ self.ip[0] + " recibio el archivo mal")
-                        lk4.release()
-                    else:
-                        lk4.acquire()
-                        self.logger.info("El usuario con ip: "+ self.ip[0] + " recibio el archivo correcto")
-                        lk4.release()
-                    self.sock.close()
-            else:
-                self.sock.close()
-                lk2.release()
-                lk3.release()
-                lk.release()
-                lk4.acquire()
-                self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Se terminó la conexión con: " +
-                                 self.ip[0] + " en el puerto: " + str(self.port))
-                lk4.release()
+        #             h = hash_file(self.filename)
+        #             print(h)
+        #             self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
+        #                         " Enviando Hash")
+        #             sleep(1)
+        #             self.sock.sendto("HASH".encode(),self.ip)
+        #             data = self.sock.recv(SIZE).decode()
+        #             if data == LISTO:
+        #                 self.sock.sendto(h.encode(),self.ip)
+        #             resp = self.sock.recv(SIZE).decode()
+        #             if resp=="ERROR":
+        #                 lk4.acquire()
+        #                 self.logger.info("El usuario con ip: "+ self.ip[0] + " recibio el archivo mal")
+        #                 lk4.release()
+        #             else:
+        #                 lk4.acquire()
+        #                 self.logger.info("El usuario con ip: "+ self.ip[0] + " recibio el archivo correcto")
+        #                 lk4.release()
+        #             self.sock.close()
+        #     else:
+        #         self.sock.close()
+        #         lk2.release()
+        #         lk3.release()
+        #         lk.release()
+        #         lk4.acquire()
+        #         self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Se terminó la conexión con: " +
+        #                          self.ip[0] + " en el puerto: " + str(self.port))
+        #         lk4.release()
 
-        except Exception as e:
-            print(e)
-            if not lk.acquire(False):
-                lk.release()
-            if not lk2.acquire(False):
-                lk2.release()
-            if not lk3.acquire(False):
-                lk3.release()
-            if not lk4.acquire(False):
-                lk4.release()
-            lk4.acquire()
-            self.logger.error("Error: " + str(e))
-            lk4.release()
-            self.sock.close()
+        # except Exception as e:
+        #     print(e)
+        #     if not lk.acquire(False):
+        #         lk.release()
+        #     if not lk2.acquire(False):
+        #         lk2.release()
+        #     if not lk3.acquire(False):
+        #         lk3.release()
+        #     if not lk4.acquire(False):
+        #         lk4.release()
+        #     lk4.acquire()
+        #     self.logger.error("Error: " + str(e))
+        #     lk4.release()
+        #     self.sock.close()
 
 
 def create_socket(logger):
@@ -304,6 +308,127 @@ def hash_file(filename):
     return h.hexdigest()
 
 
+def handle_cliente_request(data,sock,ip,logger,filename):
+    global n_clientes
+
+    global SIZE
+    global clientes_listos
+    global clientes_enviados
+    try:
+        if data == HOLA:
+            lk4.acquire()
+            logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Recibiendo Saludo de cliente: " + ip[0])
+            lk4.release()
+            lk_sock.acquire()
+            sock.sendto(CONECTADO.encode(),ip)
+            lk_sock.release()
+            lk4.acquire()
+            logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                "Enviando Confirmacion conexion a cliente: " + ip[0])
+            lk4.release()
+        elif data==LISTO:
+            lk.acquire()
+            clientes_listos += 1
+            lk.release()
+            lk4.acquire()
+            logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + "Cliente: "+ip[0] +
+                                " Listo para recibir archivos")
+            lk4.release()
+
+            while clientes_listos < n_clientes:
+                lk4.acquire()
+                #self.logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " No se ha completado el numero de clientes")
+                lk4.release()
+                continue
+
+            lk3.acquire()
+            lk2.acquire()
+            lk.acquire()
+            if clientes_enviados < n_clientes:
+                lk4.acquire()
+                logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + " Enviando archivo a cliente: " + ip[0])
+                lk4.release()
+                clientes_listos -= 1
+                clientes_enviados += 1
+                lk3.release()
+                lk2.release()
+                lk.release()
+                lk_sock.acquire()
+                sock.sendto((filename[:-4]+'_'+str(clientes_enviados)+filename[filename.find('.')::]).encode(),ip)
+                lk_sock.release()
+                f = open('./data/'+filename, 'rb')
+                start_time = time.time()
+
+                
+                l = f.read(SIZE)
+                while l:
+                    lk_sock.acquire()
+                    sock.sendto(l,ip)
+                    lk_sock.release()
+                    # print('Sent ',repr(l))
+
+                    l = f.read(SIZE)
+                if not l:
+                    f.close()
+
+                    end_time = time.time()
+
+                    time_time = end_time-start_time
+                    lk4.acquire()
+                    logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                        " Envio Terminado con cliente: " + ip[0] + "en el puerto: " + str(ip[1]))
+                    
+                    logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') + 
+                        "Duracion: " + str(time_time) + " seconds wall time")
+                    lk4.release()
+
+                    h = hash_file('./data/'+filename)
+                    print(h)
+                    logger.info(datetime.today().strftime('%Y-%m-%d-%H:%M:%S') +
+                                " Enviando Hash")
+                    sleep(1)
+                    lk_sock.acquire()
+                    sock.sendto("HASH".encode(),ip)
+                    lk_sock.release()
+                    lk_sock.acquire()
+                    data = sock.recv(SIZE).decode()
+                    lk_sock.release()
+                    if data == LISTO:
+                        lk_sock.acquire()
+                        sock.sendto(h.encode(),ip)
+                        lk_sock.release()
+                    lk_sock.acquire()
+                    resp = sock.recv(SIZE).decode()
+                    lk_sock.release()
+                    if resp=="ERROR":
+                        lk4.acquire()
+                        logger.info("El usuario con ip: "+ ip[0] + " recibio el archivo mal")
+                        lk4.release()
+                    else:
+                        lk4.acquire()
+                        logger.info("El usuario con ip: "+ ip[0] + " recibio el archivo correcto")
+                        lk4.release()
+    except Exception as e:
+            print(e)
+            if not lk.acquire(False):
+                lk.release()
+            if not lk2.acquire(False):
+                lk2.release()
+            if not lk3.acquire(False):
+                lk3.release()
+            if not lk4.acquire(False):
+                lk4.release()
+            if not lk_sock.acquire(False):
+                lk_sock.release()
+            lk4.acquire()
+            logger.error("Error: " + str(e))
+            lk4.release()
+           
+
+                    
+   
+
+
 if __name__ == '__main__':
     global n_clientes
     global all_connections
@@ -325,6 +450,7 @@ if __name__ == '__main__':
     lk2 = threading.Lock()
     lk3 = threading.Lock()
     lk4 = threading.Lock()
+    lk_sock=threading.Lock()
     clientesThreads = []
 
     clientes_enviados = 0
@@ -333,3 +459,6 @@ if __name__ == '__main__':
     create_socket(logger)
     binding_socket(logger)
     accept_connections(logger)
+
+
+
