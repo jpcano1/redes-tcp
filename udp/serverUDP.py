@@ -209,7 +209,7 @@ def accept_connections(logger):
             lk_sock.acquire()
             s.setblocking(1)
             recvdata,addr = s.recvfrom(SIZE)
-            lk.release()
+            lk_sock.release()
             # all_connections.append(conn)
             # all_address.append(address)
             tcliente = ClienteThread(recvdata,addr,s, filename, logger)
