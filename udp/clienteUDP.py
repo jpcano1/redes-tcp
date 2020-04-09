@@ -20,6 +20,7 @@ class Cliente:
     def procesar(self):
       
         self.sock.sendto(HOLA.encode(),self.server)
+        self.logger.info("Solicitando conexion con el servidor")
         data = self.sock.recv(SIZE).decode()
         if data == CONECTADO:
             self.sock.sendto(LISTO.encode(),self.server)
@@ -116,7 +117,7 @@ if __name__ == '__main__':
     # s.connect((host, port))
     # ipcliente='localhost'
     # s.bind((ipcliente,port))
-    print("Conectado")
+    # print("Conectado")
     # logger.info("Cliente conectado")
     cliente = Cliente(servidor,s, logger)
     cliente.procesar()
