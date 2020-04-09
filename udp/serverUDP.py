@@ -356,7 +356,7 @@ def handle_cliente_request(data,sock,ip,logger,filename):
                 lk_sock.acquire()
                 sock.sendto((filename[:-4]+'_'+str(clientes_enviados)+filename[filename.find('.')::]).encode(),ip)
                 lk_sock.release()
-                f = open('./data/'+filename, 'rb')
+                f = open(filename, 'rb')
                 start_time = time.time()
 
                 
