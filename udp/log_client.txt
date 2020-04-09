@@ -64,3 +64,393 @@ INFO:client_logger:Conectado con el servidor
 INFO:client_logger:Conectado con el servidor
 INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
 INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:36:53 Duracion: 1.3989520072937012 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:40:11 Duracion: 1.2245080471038818 seconds wall time
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:41:07 Duracion: 0.40917420387268066 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:41:32 Duracion: 1.023963212966919 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:42:24 Duracion: 0.9782042503356934 seconds wall time
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:43:52 Duracion: 1.0177373886108398 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:43:58 Duracion: 0.9233119487762451 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:06 Duracion: 1.237779140472412 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:12 Duracion: 0.9194257259368896 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:17 Duracion: 0.924269437789917 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:24 Duracion: 0.7375946044921875 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:29 Duracion: 0.9235258102416992 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:35 Duracion: 0.9200494289398193 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:41 Duracion: 0.9224288463592529 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:48 Duracion: 1.1243071556091309 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:44:54 Duracion: 0.8587343692779541 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:45:01 Duracion: 0.921417236328125 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:45:09 Duracion: 0.9172854423522949 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:45:15 Duracion: 0.7651662826538086 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:45:21 Duracion: 0.7492468357086182 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:45:28 Duracion: 1.226067304611206 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:45:39 Duracion: 0.9169721603393555 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:45:47 Duracion: 0.9250388145446777 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:45:54 Duracion: 0.9152593612670898 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:46:00 Duracion: 0.912508487701416 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:46:06 Duracion: 0.9241809844970703 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:46:16 Duracion: 0.9195566177368164 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:46:22 Duracion: 0.8174762725830078 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:46:29 Duracion: 0.9250657558441162 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:46:36 Duracion: 0.9183499813079834 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:46:42 Duracion: 0.9198637008666992 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:46:50 Duracion: 0.9170167446136475 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:47:02 Duracion: 0.9192807674407959 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:47:08 Duracion: 0.9182412624359131 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-20:47:15 Duracion: 0.6805136203765869 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-21:05:39 Duracion: 0.8170526027679443 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-21:11:11 Duracion: 0.9856774806976318 seconds wall time
+INFO:client_logger:Recibiendo hash del archivo y verificando
+INFO:client_logger:El archivo llego correctamente
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Solicitando conexion con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:Conectado con el servidor
+INFO:client_logger:El nombre del archivo es: data/arch1_1.txt
+INFO:client_logger:Se empezó a recibir el archivo
+INFO:client_logger:Se termino de recibir el archivo
+INFO:client_logger:2020-04-08-21:12:55 Duracion: 1.1202194690704346 seconds wall time

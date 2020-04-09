@@ -423,11 +423,6 @@ def handle_cliente_request(data,sock,ip,logger,filename):
             lk4.acquire()
             logger.error("Error: " + str(e))
             lk4.release()
-           
-
-                    
-   
-
 
 if __name__ == '__main__':
     global n_clientes
