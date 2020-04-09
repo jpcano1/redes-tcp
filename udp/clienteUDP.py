@@ -32,16 +32,15 @@ class Cliente:
         try:
            
             with open(FILENAME, 'wb') as f:
-                print( 'file opened')
+                # print( 'file opened')
                 self.logger.info("Se empezó a recibir el archivo")
                 while True:
-                    print('receiving data...')
-                    print(data.decode())
+                    
 
                     if "HASH" in data.decode():
-                        print("Se termino de recibir el archivo")
+                        # print("Se termino de recibir el archivo")
                         f.close()
-                        print('file closed')
+                        # print('file closed')
                         self.sock.sendto(LISTO.encode(),self.server)
                         self.logger.info("Se termino de recibir el archivo")
                         end_time = time.time()

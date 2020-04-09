@@ -206,8 +206,10 @@ def accept_connections(logger):
             #conn, address = s.accept()
             # logger.info("La conexión se ha establecido: IP: " +
             #             address[0] + " en el puerto: " + str(address[1]))
+            lk_sock.acquire()
             s.setblocking(1)
             recvdata,addr = s.recvfrom(SIZE)
+            lk.release()
             # all_connections.append(conn)
             # all_address.append(address)
             tcliente = ClienteThread(recvdata,addr,s, filename, logger)
